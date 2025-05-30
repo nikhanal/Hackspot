@@ -34,7 +34,7 @@ const Hero = () => {
     };
 
     return(
-        <section className="w-full py-12 md:py-24 lg:py-32 h-screen lg:h-[calc(100vh-5rem)] bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 px-4 lg:px-8 flex items-center">
+        <section className="w-full py-12 md:py-24 lg:py-32 h-screen lg:h-[calc(100vh-5rem)] bg-gradient-to-br from-purple-200 via-blue-100 to-indigo-300 px-4 lg:px-28 flex items-center">
           <motion.div 
             className="container"
             initial="hidden"
@@ -52,7 +52,7 @@ const Hero = () => {
                   </motion.span>
                   <motion.h1 
                     variants={itemVariants}
-                    className="text-3xl font-bold tracking-tighter sm:text-5xl lg:text-6xl xl:text-7xl"
+                    className="text-3xl font-bold tracking-tighter sm:text-5xl lg:text-6xl xl:text-7xl text-gray-800"
                   >
                     Discover hackathons in your <span className="text-purple-600">neighborhood</span>
                   </motion.h1>
